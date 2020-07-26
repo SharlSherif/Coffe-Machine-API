@@ -10,8 +10,6 @@ router.post(
     ProductController.seed
 );
 
-// router.get('/', ProductController.getData);
-
 router.get('/', Middleware, ProductController.getData)
 
 module.exports = router;

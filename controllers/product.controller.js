@@ -2,18 +2,6 @@ const Product = require('../models/product.model')
 const Response = require('../utils/jsonResponse')
 
 class ProductController {
-    // static async getData(req, res) {
-    //     try {
-    //         let data = await Product.find()
-    //         res.status(200).send(
-    //             Response({ isSuccess: true, data })
-    //         )
-    //     } catch (message) {
-    //         res.status(400).send(Response({ isSuccess: false, message }))
-    //     }
-
-    // }
-
     static async getData(req, res) {
         // we get this passed from the Product middleware
         const query = req.structuredQuery
