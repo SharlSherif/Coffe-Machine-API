@@ -3,9 +3,10 @@
 - npm install
 - npm start
 
+*I'm using an online database so you don't have to set it up*
 # Usage
-Filters:
 
+## Filters
 ### product_type (string)
 - COFFEE_POD_LARGE
 - COFFEE_POD_SMALL
